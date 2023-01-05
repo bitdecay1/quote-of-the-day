@@ -9,8 +9,35 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <h1> Hello JS Developer </h1>
-    <i class="fa-brands fa-facebook"></i>
+    <div class="quote-container" id="quote-container">
+        <div class="quote-text">
+            <i class="fa-sharp fa-solid fa-quote-left"></i>
+            <span id="quote">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sint, fugiat expedita dignissimos voluptate ea harum accusantium nam! Accusamus iusto consectetur assumenda dolorum.
+            </span>
+        </div>
+
+        <!-- Author -->
+        <div class="quote-author">
+            <div id="author"> Obama </div>
+        </div>
+        
+        <!-- Button -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </button>
+
+            <button id="new-quote">
+                New Quote
+            </button>
+        </div>
+        
+    </div>
+    <!-- Creating a loader -->
+    <div class="loader" id="loader"></div> 
+
+    
     <script src="./script.js"></script>
 </body>
 </html>
